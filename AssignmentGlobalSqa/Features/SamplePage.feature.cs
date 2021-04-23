@@ -76,6 +76,8 @@ namespace AssignmentGlobalSqa.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify user adble to enter data in the respoective files..")]
         [NUnit.Framework.TestCaseAttribute("D:\\2.txt", "Deepak", "deepakv@winjit.com", "https://www.google.com", "10+", "Functional Testing,Manual Testing", "Other", "Hello World", null)]
+        [NUnit.Framework.TestCaseAttribute("D:\\3.txt", "Mrunal", "mrunal@winjit.com", "https://www.google.com", "3-5", "Manual Testing", "Other", "Hello World", null)]
+        [NUnit.Framework.TestCaseAttribute("", "", "", "", "", "", "", "", null)]
         public virtual void VerifyUserAdbleToEnterDataInTheRespoectiveFiles_(string fileLocation, string enterName, string enterEmail, string enterWebSite, string experiences, string expertise, string education, string comment, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
